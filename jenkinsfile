@@ -1,0 +1,10 @@
+pipeline{
+agent{
+lable : 'master'
+}
+ENVIRONMENT_EMAIL = "girichamakuri1@gmail.com"
+stages{
+stage ("git clone")
+script{
+sh git clone ...
+}
